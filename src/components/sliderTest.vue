@@ -109,11 +109,11 @@
                 })
             }
 
-            // 间隔3000ms跳转一次
+            // 间隔2000ms跳转一次
 
             setInterval(function () {
                 time ++;
-                if(time == 30){
+                if(time == 20){
                     goNext()
                     time = 0
                 }

@@ -1,6 +1,5 @@
 <template>
     <div id="likely">
-        <div class="desc"> → 你可能还喜欢 ← </div>
         <div class="like">
             <div class="good" v-for="(good,index) in goods" :key="index">
                 <a href="#">
@@ -63,12 +62,6 @@
 </script>
 
 <style scoped>
-    .desc{
-        width: 100%;
-        height: 30px;
-        text-align: center;
-        color: rgb(255,133,42);
-    }
     .like{
         width: 92%;
         margin: 0 auto 60px auto;

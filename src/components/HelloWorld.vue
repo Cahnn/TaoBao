@@ -3,7 +3,7 @@
     <header>
       <div id="header">
         <span>淘</span>
-        <input type="search" value="寻找宝贝店铺">
+        <input type="search" value="1903010234汤惠姗">
       </div>
     </header>
     <slider-test></slider-test>
@@ -20,6 +20,7 @@
       </div>
     </div>
     <recommend></recommend>
+    <div class="desc"> → 你可能还喜欢 ← </div>
     <likely></likely>
 <!--    <sliderTest></sliderTest>-->
 
@@ -144,5 +145,10 @@ export default {
     height: 70%;
     background-color: white;
   }
-
+  .desc{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: rgb(255,133,42);
+  }
 </style>

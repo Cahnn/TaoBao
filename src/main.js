@@ -38,7 +38,6 @@ let routes=[
   }
 ];
 
-
 // 创建router实例
 let router = new VueRouter({
   mode: 'history',
